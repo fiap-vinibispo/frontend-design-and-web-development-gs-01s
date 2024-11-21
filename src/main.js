@@ -1,4 +1,5 @@
 import "./components/divider.js"
+import "./pages/clients.js"
 import { Carousel } from "./components/carousel.js"
 
 Carousel.create("carousel-objectives", [

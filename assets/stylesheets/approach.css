@@ -1,4 +1,4 @@
-section#how h1 {
+section#approach h1 {
   text-align: center;
   background: hsla(163, 56%, 52%, 1);
   
@@ -14,20 +14,20 @@ section#how h1 {
   margin-bottom: 3rem;
 }
 
-section#how ol {
+section#approach ol {
   padding: 1rem;
   counter-reset: benefits-counter;
   list-style: none;
 }
 
-section#how li {
+section#approach li {
   counter-increment: benefits-counter;
   margin-bottom: 2rem;
   display: flex;
   align-items: center;
 }
 
-section#how li::before {
+section#approach li::before {
   content: counter(benefits-counter);
   background-color: #36af9b;
   display: flex;
@@ -44,18 +44,18 @@ section#how li::before {
   border-radius: 50%;
 }
 
-section#how li.card {
+section#approach li.card {
   border: 1px solid #37b19b;
   padding: 2rem;
 }
 
-section#how li h2 {
+section#approach li h2 {
   font-size: 3rem;
   font-weight: bold;
   color: #36af9b;
 }
 
-section#how li span {
+section#approach li span {
   font-size: 1rem;
   max-width: 1041px;
 }
