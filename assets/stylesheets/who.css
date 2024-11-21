@@ -1,0 +1,14 @@
+section#who {
+  margin-top: 6rem;
+}
+section#who h1 {
+  align-content: center;
+  font-size: 4rem;
+  color: var(--main-color);
+  text-align: center;
+}
+
+section#who article {
+  display: flex;
+  gap: 1rem;
+}

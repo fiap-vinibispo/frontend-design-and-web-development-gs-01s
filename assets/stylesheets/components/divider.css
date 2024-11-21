@@ -3,9 +3,9 @@
   overflow: hidden;
 }
 
-/* .divider[data-style="vertical"] { */
-/*   height: 100%; */
-/* } */
+.divider[data-style="vertical"] {
+  height: 500px;
+}
 /**/
 /* .divider[data-style="horizontal"] { */
 /*   width: 100%; */
