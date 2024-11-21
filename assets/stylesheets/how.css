@@ -1,0 +1,61 @@
+section#how h1 {
+  text-align: center;
+  background: hsla(163, 56%, 52%, 1);
+  
+  background: linear-gradient(180deg, hsla(163, 56%, 52%, 1) 0%, hsla(176, 54%, 40%, 1) 100%);
+  
+  background: -moz-linear-gradient(180deg, hsla(163, 56%, 52%, 1) 0%, hsla(176, 54%, 40%, 1) 100%);
+  
+  background: -webkit-linear-gradient(180deg, hsla(163, 56%, 52%, 1) 0%, hsla(176, 54%, 40%, 1) 100%);
+  font-weight: bold;
+  font-size: 4rem;
+  color: var(--white);
+  padding: 3rem;
+  margin-bottom: 3rem;
+}
+
+section#how ol {
+  padding: 1rem;
+  counter-reset: benefits-counter;
+  list-style: none;
+}
+
+section#how li {
+  counter-increment: benefits-counter;
+  margin-bottom: 2rem;
+  display: flex;
+  align-items: center;
+}
+
+section#how li::before {
+  content: counter(benefits-counter);
+  background-color: #36af9b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 6rem;
+  height: 6rem;
+  font-size: 3rem;
+  margin-right: 1.5rem;
+  /* top: 50%; */
+  /* left: 50%; */
+  /* transform: translate(-50%, -50%); */
+  color: var(--white);
+  border-radius: 50%;
+}
+
+section#how li.card {
+  border: 1px solid #37b19b;
+  padding: 2rem;
+}
+
+section#how li h2 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #36af9b;
+}
+
+section#how li span {
+  font-size: 1rem;
+  max-width: 1041px;
+}
