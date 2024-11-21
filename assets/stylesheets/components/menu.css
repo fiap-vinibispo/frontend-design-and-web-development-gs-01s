@@ -1,9 +1,10 @@
 header.menu {
-  background-color: #2f9c95;
+  background-color: var(--third-color);
   padding: 21px 5px;
   width: 100%;
   position: sticky;
   top: 0px;
+  z-index: 999;
 }
 
 header.menu > nav {

@@ -11,7 +11,7 @@ section#home .floor {
 }
 
 section#home h1 {
-  color: #2f9c95;
+  color: var(--third-color);
   font-size: 6rem;
   text-transform: uppercase;
   text-align: center;

@@ -1,0 +1,97 @@
+.carousel {
+  max-width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+  position: relative;
+}
+
+.carousel-track-container {
+  width: 100%;
+  overflow: hidden;
+}
+
+.carousel-track {
+  display: flex;
+  transition: transform 0.5s ease-in-out;
+  width: 100%;  /* Ensure it takes up the full width */
+}
+
+.carousel-slide {
+  min-width: 100%;
+  position: relative;
+  height: 765px;  /* You can adjust this value */
+}
+
+.carousel-slide::after {
+  /* Add a dark overlay */
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.73); /* Dark overlay with 40% opacity */
+  pointer-events: none; /* Ensure the overlay doesn't interfere with interactions */
+}
+
+.carousel-slide.current {
+  opacity: 1;
+  width: 100%;
+}
+
+.carousel-slide:not(.current) {
+  opacity: 0.5;
+  width: 60%;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensures the image maintains its aspect ratio */
+}
+
+.slide-content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: center;
+  max-width: 80%;
+  z-index: 2;
+}
+
+.slide-content h3 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.slide-content p {
+  font-size: 2.5rem;
+}
+
+/* Indicators */
+.carousel-indicators {
+  display: flex;
+  justify-content: center;
+  margin: 15px 0;
+}
+
+.indicator {
+  width: 12px;
+  height: 12px;
+  background-color: var(--third-color);
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+  opacity: 0.5;
+  transition: opacity 0.3s ease;
+}
+
+.indicator.current {
+  opacity: 1;
+  background-color: var(--white);
+}

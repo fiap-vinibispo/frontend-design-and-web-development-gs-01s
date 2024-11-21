@@ -14,9 +14,11 @@
     <link rel="stylesheet" href="./assets/stylesheets/components/menu.css" />
     <link rel="stylesheet" href="./assets/stylesheets/home.css" />
     <link rel="stylesheet" href="./assets/stylesheets/tech.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/objectives.css" />
     <link rel="stylesheet" href="./assets/stylesheets/components/divider.css" />
+    <link rel="stylesheet" href="./assets/stylesheets/components/carousel.css" />
     <link rel="icon" href="./assets/images/logo.svg">
-    <script defer src="./src/components/divider.js"></script>
+    <script defer type="module" src="./src/main.js"></script>
   </head>
   <body>
     <header class="menu">
@@ -65,21 +67,25 @@
           Calcule a sua <span class="impact">pegada de carbono</span>
         </h1>
         <div class="divider"></div>
-        <p>
+        <h2>
           Com o aplicativo <span class="app">Green Debt</span>, é fácil cadastrar sua rotina e descobrir como
-        </p>
-        <p>Você pode reduzir sua pegada de carbono</p>
+        </h2>
+        <h3>Você pode reduzir sua pegada de carbono</h3>
         <article>
-          <img />
+          <img src="./assets/images/tech/app.png" alt="Aplicativo mostrando qual a pegada de carbono do usuário"/>
           <div class="sustentable">
-            <img>
-            <p>Nossos algoritmos avançados te ajudam a ter uma</p>
-            <p>rotina mais</p>
+            <img src="./assets/images/tech/man-with-app.png">
+            <p>Nossos algoritmos avançados te ajudam a ter uma rotina mais</p>
             <span class="high-impact">sustentável</span>
           </div>
         </article>
+        <div class="divider"></div>
       </section>
-      <section id="tech"></section>
+      <section id="objectives">
+        <h1>Queremos transformar intenções em ações</h1>
+        <article id="carousel-objectives"></article>
+        <div class="divider" data-color="white"></div>
+      </section>
       <section id="tech"></section>
       <section id="tech"></section>
       <section id="tech"></section>
