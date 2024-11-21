@@ -16,9 +16,6 @@ header.menu .logo {
   display: flex;
   align-items: center;
   justify-content: flex-start;
-  position: relative;
-  width: 12rem;
-  margin-left: -10px;
   margin-right: 10px;
 }
 
@@ -32,10 +29,8 @@ header.menu .logo > a:hover {
   font-size: 2.1rem;
 }
 
-header.menu img {
-  position: absolute;
-  top: -16px;
-}
+/* header.menu img { */
+/* } */
 
 header.menu ul {
   list-style: none;
