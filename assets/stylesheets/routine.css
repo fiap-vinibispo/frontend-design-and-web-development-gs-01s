@@ -1,0 +1,33 @@
+section#routine {
+  background: url('../images/routine/background.png') no-repeat center center fixed;
+  padding: 3rem;
+}
+
+section#routine h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: var(--white);
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+section#routine article {
+  display: flex;
+  justify-content: space-around;
+  gap: .5rem;
+  align-items: center;
+}
+
+section#routine article div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+section#routine span {
+  font-size: 2.25rem;
+  font-weight: bold;
+  color: var(--white);
+  max-width: 600px;
+  text-align: center;
+}
