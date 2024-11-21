@@ -1,0 +1,12 @@
+.divider {
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+/* .divider[data-style="vertical"] { */
+/*   height: 100%; */
+/* } */
+/**/
+/* .divider[data-style="horizontal"] { */
+/*   width: 100%; */
+/* } */

@@ -1,0 +1,17 @@
+* {
+  font-family: 'Scada', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --main-color: #40c9a2;
+  --white: #fff;
+  --second-color: #a3f7b5;
+  --logo-text-color: #f6fffe;
+}
+
+html, body, input, button {
+  font-size: 16px;
+}

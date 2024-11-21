@@ -1,0 +1,17 @@
+section#tech {
+  margin-left: 3rem;
+}
+section#tech h1 {
+  font-weight: bold;
+  font-size: 4rem;
+  color: var(--main-color);
+}
+
+section#tech h1 .impact {
+  color: var(--white);
+  background-color: var(--main-color);
+}
+
+.divider {
+  margin: 1.5rem;
+}

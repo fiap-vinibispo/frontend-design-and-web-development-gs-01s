@@ -1,0 +1,57 @@
+header.menu {
+  background-color: #2f9c95;
+  padding: 21px 5px;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+
+header.menu > nav {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+header.menu .logo {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  width: 12rem;
+  margin-left: -10px;
+  margin-right: 10px;
+}
+
+header.menu .logo > a {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 2rem;
+}
+
+header.menu .logo > a:hover {
+  font-size: 2.1rem;
+}
+
+header.menu img {
+  position: absolute;
+  top: -16px;
+}
+
+header.menu ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+header.menu a {
+  color: var(--white);
+  text-decoration: none;
+  transition: color 2s, font-size 1s;
+  font-size: 1.5rem;
+}
+
+header.menu a:hover {
+  color: var(--main-color);
+  font-size: 1.6rem;
+}
