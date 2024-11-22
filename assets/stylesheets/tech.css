@@ -5,19 +5,19 @@ section#tech {
   grid-gap: 32px;
   align-items: center;
 }
-section#tech h1 {
+section#tech h2 {
   font-weight: bold;
   font-size: 4rem;
   text-align: center;
   color: var(--main-color);
 }
 
-section#tech h1 .impact {
+section#tech h2 .impact {
   color: var(--white);
   background-color: var(--main-color);
 }
 
-section#tech h2, section#tech h3 {
+section#tech h3, section#tech h4 {
   font-weight: normal;
   font-size: 2rem;
   text-align: center;

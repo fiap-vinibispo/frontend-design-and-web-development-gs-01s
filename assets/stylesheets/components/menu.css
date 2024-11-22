@@ -24,13 +24,13 @@ header.menu .logo {
   margin-right: 10px;
 }
 
-header.menu .logo > a {
+header.menu .logo > h1 > a {
   text-transform: uppercase;
   font-weight: bold;
   font-size: 2rem;
 }
 
-header.menu .logo > a:hover {
+header.menu .logo > h1 > a:hover {
   font-size: 2.1rem;
 }
 
