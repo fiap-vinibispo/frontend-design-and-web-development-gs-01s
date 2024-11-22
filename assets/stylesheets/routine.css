@@ -16,14 +16,14 @@ section#routine h2 {
   margin-bottom: 1rem;
 }
 
-section#routine article {
+section#routine .images {
   display: flex;
   justify-content: space-around;
   gap: .5rem;
   align-items: center;
 }
 
-section#routine article div {
+section#routine .images div {
   display: flex;
   flex-direction: column;
   align-items: center;
