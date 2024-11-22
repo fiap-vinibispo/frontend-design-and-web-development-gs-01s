@@ -13,6 +13,11 @@
   --logo-text-color: #f6fffe;
 }
 
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: var(--scroll-padding, 100px);
+}
+
 html, body, input, button {
   font-size: 16px;
 }
