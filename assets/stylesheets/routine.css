@@ -8,7 +8,7 @@ section#routine {
   flex-direction: column;
 }
 
-section#routine h1 {
+section#routine h2 {
   font-weight: bold;
   font-size: 4rem;
   color: var(--white);

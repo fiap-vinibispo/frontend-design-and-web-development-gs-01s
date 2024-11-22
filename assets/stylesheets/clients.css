@@ -6,7 +6,7 @@ section#clients {
   grid-gap: 2rem;
   padding: 1rem;
 }
-section#clients h1 {
+section#clients h2 {
   align-content: center;
   font-size: 4rem;
   color: var(--main-color);
@@ -20,19 +20,19 @@ section#clients article {
   grid-gap: 2rem;
 }
 
-section#clients h2 {
+section#clients h3 {
   font-weight: bold;
   font-size: 3rem;
   color: var(--main-color);
   transition: color 2s, background-color 1s;
 }
 
-section#clients h2.hovered-title {
+section#clients h3.hovered-title {
   background-color: var(--main-color);
   color: var(--white);
 }
 
-section#clients h3 {
+section#clients h4 {
   font-size: 2.25rem;
   font-weight: normal;
   max-width: 500px;

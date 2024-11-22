@@ -15,7 +15,7 @@ section#objectives {
   background: -webkit-linear-gradient(180deg, hsla(163, 56%, 52%, 1) 0%, hsla(176, 54%, 40%, 1) 100%);
 }
 
-section#objectives h1 {
+section#objectives h2 {
   font-size: 40px;
   font-weight: bold;
   text-align: center;
