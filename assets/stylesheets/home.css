@@ -1,6 +1,9 @@
 section#home {
   margin-top: 3rem;
   margin-bottom: 3rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 section#home .floor {
   background: hsla(163, 56%, 52%, 1);
@@ -8,6 +11,7 @@ section#home .floor {
   background: -moz-linear-gradient(180deg, var(--main-color) 0%, var(--second-color) 100%);
   background: -webkit-linear-gradient(180deg, var(--main-color) 0%, var(--second-color) 100%);
   filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="var(--main-color)", endColorstr="var(--second-color)", GradientType=1 );
+  width: 100%;
 }
 
 section#home h1 {
@@ -37,7 +41,8 @@ section#home .floor {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 326px;
+  height: 300px;
+  width: 100%;
 }
 
 section#home .floor p {
@@ -51,7 +56,7 @@ section#home .floor p {
 section#home .images {
   display: flex;
   margin-top: -11rem;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: flex-end;
 }
 

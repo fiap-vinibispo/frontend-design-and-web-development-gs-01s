@@ -1,6 +1,10 @@
 section#clients {
-  margin-top: 6rem;
-  margin-left: 6rem;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-top: 3rem;
+  grid-gap: 2rem;
+  padding: 1rem;
 }
 section#clients h1 {
   align-content: center;
@@ -11,7 +15,9 @@ section#clients h1 {
 
 section#clients article {
   display: flex;
-  gap: 1rem;
+  flex-direction: row;
+  justify-content: center;
+  grid-gap: 2rem;
 }
 
 section#clients h2 {
@@ -73,4 +79,18 @@ section#clients .form-group button[type="submit"] {
   color: var(--white);
   border-radius: 5px;
 
+}
+
+section#clients .client-form{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 32px;
+  max-width: 550px;
+}
+
+section#clients .company-form{
+  display: flex;
+  flex-direction: column;
+  grid-gap: 32px;
+  max-width: 600px;
 }

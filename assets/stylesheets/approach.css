@@ -1,3 +1,9 @@
+section#approach{
+  width: 100%;
+  display: flex;
+}
+
+
 section#approach h1 {
   text-align: center;
   background: hsla(163, 56%, 52%, 1);

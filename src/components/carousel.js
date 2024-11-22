@@ -14,7 +14,7 @@ export const Carousel = {
    * @param {SlideOptions[]} slides Array of slide objects to be used in the carousel.
    * @param {number} interval Time in milliseconds for automatic slide transitions.
    */
-  create(id, slides, interval = 3000) {
+  create(id, slides, interval = 6000) {
     const carouselElement = document.getElementById(id)
     if (!carouselElement) throw new Error("Não foi possível encontrar o elemento para inserir o carrosel")
 

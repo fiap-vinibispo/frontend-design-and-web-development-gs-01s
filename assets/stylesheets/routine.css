@@ -1,4 +1,7 @@
 section#routine {
+  width: 100%;
+  display: flex;
+  
   background: url('../images/routine/background.png') no-repeat center center fixed;
   padding: 3rem;
 }
