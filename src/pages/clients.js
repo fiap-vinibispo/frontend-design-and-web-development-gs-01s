@@ -15,8 +15,25 @@ forms.forEach(form => {
     if (!form.checkValidity()) {
       const inputs = form.querySelectorAll("input:invalid")
       const textarea = form.querySelector("textarea:invalid")
-      inputs.forEach(i => i.classList.add("error"))
-      textarea.classList.add("error")
+      inputs.forEach(input => {
+        const validityState = input.validity
+        const labelText = input.parentElement.firstElementChild.textContent
+        if (validityState.valueMissing) {
+          input.setCustomValidity(`O campo ${labelText.toLowerCase()} deve ser preenchido`)
+        } else if (validityState.typeMismatch) {
+          input.setCustomValidity(`Não é um ${labelText.toLowerCase()} válido`)
+        }
+        input.classList.add("error")
+      })
+      if (textarea) {
+        const validityState = textarea.validity
+        const labelText = textarea.parentElement.firstElementChild.textContent
+        if (validityState.valueMissing) {
+          textarea.setCustomValidity(`O campo ${labelText.toLowerCase()} deve ser preenchido`)
+        }
+        textarea.classList.add("error")
+      }
+      form.reportValidity()
       return
     }
 
@@ -25,5 +42,15 @@ forms.forEach(form => {
     } else {
       alert("Agradecemos por se cadastrar na nossa plataforma")
     }
+    form.reset()
+  })
+
+})
+
+const allFields = document.querySelectorAll("section#clients form :is(input, textarea)")
+allFields.forEach(field => {
+  field.addEventListener("input", () => {
+    field.setCustomValidity("");
+    field.classList.remove("error");
   })
 })
