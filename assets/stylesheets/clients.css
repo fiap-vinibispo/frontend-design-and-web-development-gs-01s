@@ -55,10 +55,19 @@ section#clients .form-group label {
 }
 
 section#clients .form-group :is(input, textarea) {
+  outline: none;
   border: 1px solid #a0a0a0;
   padding: 2rem;
   border-radius: 0.5rem;
   font-size: 2.25rem;
+}
+
+section#clients .form-group :is(input, textarea):focus {
+  border: 2px solid var(--main-color);
+}
+
+section#clients .form-group :is(input, textarea).error {
+  border: 2px solid #f00;
 }
 
 section#clients .form-group textarea {

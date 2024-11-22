@@ -4,7 +4,6 @@ section#tech {
   flex-direction: column;
   grid-gap: 32px;
   align-items: center;
-  margin-bottom: 24px;
 }
 section#tech h1 {
   font-weight: bold;
@@ -31,10 +30,7 @@ section#tech .app {
 }
 
 section#tech .divider {
-  margin-top: 1.5rem;
-  margin-left: -3rem;
   width: 100%;
-  margin-left: 0px;
 }
 
 section#tech article {
@@ -47,6 +43,7 @@ section#tech article {
 
 section#tech article .susteinable {
   display: flex;
+  width: 100%;
   flex-direction: column;
   text-align: center;
   font-size: 2.5rem;
@@ -55,10 +52,14 @@ section#tech article .susteinable {
   
 }
 
-section#tech article .susteinable img{
-  width: 900px;
+section#tech article .susteinable img {
+  max-width: 900px;
   height: 527px;
+  object-fit: cover;
+  /* width: 900px; */
 }
+
+
 
 section#tech .phoneImg {
   max-width: 600px;

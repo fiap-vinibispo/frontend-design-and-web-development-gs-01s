@@ -3,7 +3,9 @@ section#routine {
   display: flex;
   
   background: url('../images/routine/background.png') no-repeat center center fixed;
+  background-size: cover;
   padding: 3rem;
+  flex-direction: column;
 }
 
 section#routine h1 {

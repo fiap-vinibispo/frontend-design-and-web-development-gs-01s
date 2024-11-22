@@ -1,6 +1,7 @@
 section#approach{
   width: 100%;
   display: flex;
+  flex-direction: column;
 }
 
 
@@ -39,8 +40,8 @@ section#approach li::before {
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 6rem;
-  height: 6rem;
+  width: 4rem;
+  height: 4rem;
   font-size: 3rem;
   margin-right: 1.5rem;
   /* top: 50%; */
@@ -56,7 +57,7 @@ section#approach li.card {
 }
 
 section#approach li h2 {
-  font-size: 3rem;
+  font-size: 2.5rem;
   font-weight: bold;
   color: #36af9b;
 }
