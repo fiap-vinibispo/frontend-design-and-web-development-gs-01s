@@ -10,7 +10,6 @@ section#home .floor {
   background: linear-gradient(180deg, var(--main-color) 0%, var(--second-color) 100%);
   background: -moz-linear-gradient(180deg, var(--main-color) 0%, var(--second-color) 100%);
   background: -webkit-linear-gradient(180deg, var(--main-color) 0%, var(--second-color) 100%);
-  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="var(--main-color)", endColorstr="var(--second-color)", GradientType=1 );
   width: 100%;
 }
 
