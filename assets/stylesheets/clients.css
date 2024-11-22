@@ -35,6 +35,7 @@ section#clients h2.hovered-title {
 section#clients h3 {
   font-size: 2.25rem;
   font-weight: normal;
+  max-width: 500px;
 }
 
 section#clients p {
@@ -72,7 +73,8 @@ section#clients .form-group :is(input, textarea).error {
 
 section#clients .form-group textarea {
   width: 600px;
-  height: 900px;
+  height: 372px;
+  resize: none;
 }
 
 section#clients .form-group :is(input, textarea)::placeholder {
@@ -80,26 +82,38 @@ section#clients .form-group :is(input, textarea)::placeholder {
   font-size: 2.25rem;
 }
 
-section#clients .form-group button[type="submit"] {
+section#clients form button[type="submit"] {
   background-color: var(--third-color);
   padding: 20px;
   font-weight: bold;
   font-size: 2.25rem;
   color: var(--white);
   border-radius: 5px;
+  margin-top: 1rem;
 
 }
 
-section#clients .client-form{
+section#clients .client-form {
   display: flex;
   flex-direction: column;
   grid-gap: 32px;
   max-width: 550px;
 }
 
-section#clients .company-form{
+section#clients .company-form {
   display: flex;
   flex-direction: column;
   grid-gap: 32px;
   max-width: 600px;
+}
+
+section#clients .box {
+  height: 520px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+
+section#clients .box button {
+  width: 700px;
 }
